@@ -1,0 +1,43 @@
+ .holdingcontainer {
+     max-width: 100%;
+     display: flex;
+     padding: 50px;
+     box-sizing: border-box;
+     flex-direction: row;
+ }
+
+ img {
+     width: 100%
+ }
+
+ .internalcontainerL {
+     flex: 1;
+     padding: 30px;
+     font-size: 12px;
+     font-family: 'Roboto', sans-serif;
+     margin: 3px;
+     border: 2px solid black
+ }
+
+ .internalcontainerM {
+     flex: 1;
+     padding: 30px;
+     font-size: 12px;
+     font-family: 'Roboto', sans-serif;
+     margin: 3px;
+     border: 2px solid black
+ }
+
+ .internalcontainerR {
+     flex: 1;
+     padding: 30px;
+     font-size: 12px;
+     font-family: 'Roboto', sans-serif;
+     margin: 3px;
+ }
+
+ @media screen and (max-width: 768px) {
+     .holdingcontainer {
+         flex-direction: column-reverse;
+     }
+ }
