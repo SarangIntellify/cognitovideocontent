@@ -1,4 +1,103 @@
- .holdingcontainer {
+.mainclass{
+    margin: 10% 20%;
+}
+.divclass{
+        display: inline-flex;
+        color: black;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    margin:20px;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* button css
+.buttonfx{
+  color: black; 
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 4px solid #eee;
+  letter-spacing: 0.0625em;
+  padding: 8px 10px; 
+  text-transform: uppercase;
+  font: bold 16px 'Bitter', sans-serif; 
+  line-height: 2;
+  position: relative;
+display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+text-decoration: none; 
+  overflow: hidden;
+  transition: all .5s;
+}
+
+
+.buttonfx:before,
+.buttonfx:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background: #259f6c; 
+  z-index: -1;
+  transform: translate3D(0,-100%,0); 
+  transition: all .5s;
+}
+
+.buttonfx:before{
+  background: #fafcd6; 
+  z-index: -2;
+  transform: translate3D(0,0,0);
+}
+
+.buttonfx:hover{
+color: white;
+}
+
+.buttonfx:hover:after{
+  transform: translate3D(0,0,0);
+  transition: all .5s;
+}
+
+
+.slideleft:after{
+  top: 0;
+  z-index: -1;
+  transform: translate3D(-101%,0,0);
+}
+
+.slideleft:hover:after{
+  transform: translate3D(0,0,0);
+  transition: all .5s;
+}
+
+
+
+.slidebottomleft:after{
+  transform: translate3D(-100%,100%,0);
+}
+
+.slidebottomleft:hover:after{
+transform: translate3D(0,0,0);
+  transition: all .5s;
+}*/
+/* old css */
+/* .holdingcontainer {
      max-width: 100%;
      display: flex;
      padding: 50px;
@@ -40,4 +139,4 @@
      .holdingcontainer {
          flex-direction: column-reverse;
      }
- }
+ } */
