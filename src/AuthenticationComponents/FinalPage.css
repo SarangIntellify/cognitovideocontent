@@ -1,18 +1,32 @@
+
 .mainclass{
-    margin: 10% 20%;
+    background-image: url("../maxresdefault.jpg");
+    background-size:contain;
+    background-position:top;
+    background: cover;
+    
 }
 .divclass{
         display: inline-flex;
         color: black;
+        margin: 2% 6%;
 }
 /* Container holding the image and the text */
 .container {
     position: relative;
-    margin:20px;
+    margin:30px 55px;
   }
-  
+  .container .text-block {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
   /* Bottom right text */
-  .text-block {
+  /* .text-block {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -20,7 +34,7 @@
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-  }
+  } */
   /* button css
 .buttonfx{
   color: black; 
