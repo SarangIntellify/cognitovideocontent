@@ -20,7 +20,7 @@ export default function FinalPage() {
                 <iframe   width="420" height="345"  src="https://www.youtube.com/embed/QeKJ7rw6wWY"></iframe>
             </div>
             <div  class="container">
-                <p class="text-block">ADeploy AWS Lambda source code to S3 bucket from IntelliJ IDEA | Invoke from Api gateway | Java</p>
+                <p class="text-block">Deploy AWS Lambda source code to S3 bucket from IntelliJ IDEA | Invoke from Api gateway | Java</p>
                 <iframe   width="420" height="345" src="https://www.youtube.com/embed/3qt7iA6PXNM"></iframe>
             </div>
             </div>
