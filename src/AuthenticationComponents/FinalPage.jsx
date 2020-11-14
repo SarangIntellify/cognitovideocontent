@@ -2,14 +2,29 @@ import React from 'react'
 import "./FinalPage.css";
 export default function FinalPage() {
     return (
-        <div class="holdingcontainer">
-            <div class="internalcontainerL"><h1>Run and debug Lambda using sam cli commands & docker</h1><img class="dasimages" src="page1.png" width="100%" alt="img1" />.</div>
+        <div class="mainclass">
+            <div  class="divclass">
+            <div class="container">
+               <p class="text-block">Run and debug Java AWS Lambda locally using SAM CLI commands and Docker in IntelliJ Idea.</p>
+                <iframe  width="420" height="345" src="https://www.youtube.com/embed/HVJrTxtHwM0"></iframe>
+            </div>
+            <div  class="container">
+                {/* <button class="buttonfx slideleft">Deploy AWS Lambda source code to S3 bucket from IntelliJ IDEA | Invoke from Api gateway | Java </button> */}
+                <p class="text-block">Deploy AWS Lambda source code to S3 bucket from IntelliJ IDEA | Invoke from Api gateway | Java</p>
+                <iframe  width="420" height="345" src="https://www.youtube.com/embed/3qt7iA6PXNM"></iframe>
+            </div>
+            </div>
+            <div  class="divclass">
+            <div  class="container">
+                <p class="text-block">AWS Kinesis | Complete implementation of producer and consumer lambda model for AWS kinesis in java </p>
+                <iframe   width="420" height="345"  src="https://www.youtube.com/embed/QeKJ7rw6wWY"></iframe>
+            </div>
+            <div  class="container">
+                <p class="text-block">ADeploy AWS Lambda source code to S3 bucket from IntelliJ IDEA | Invoke from Api gateway | Java</p>
+                <iframe   width="420" height="345" src="https://www.youtube.com/embed/3qt7iA6PXNM"></iframe>
+            </div>
+            </div>
+          </div>
 
-            <div class="internalcontainerM"><h1>Due Dilligence</h1><img class="dasimages" src="page2.png" width="100%" alt="page2" />.</div>
-
-            <div class="internalcontainerR"><h1>Mergers and Acquisitions</h1><img class="dasimages" src="https://www.qc.sg/wp-content/uploads/2016/11/Chinese-Lantern.jpg" width="100%" alt="img1" />.</div>
-
-            <div class="internalcontainerR"><h1>Mergers and Acquisitions</h1><img class="dasimages" src="https://www.qc.sg/wp-content/uploads/2016/11/Chinese-Lantern.jpg" width="100%" alt="img1" />.</div>
-        </div>
     )
 }
